@@ -4,7 +4,7 @@
 
 #### Usage
 ```
-$ ./man.sh
+$ ./myan.sh
 \(^o^)/ﾊｼﾞﾏﾀ
    list : コマンド一覧
    bye  : 終了
