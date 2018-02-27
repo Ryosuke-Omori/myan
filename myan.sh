@@ -7,6 +7,7 @@ function list()
 {
     cat <<EOF
 ===list===
+chef
 cp
 git
 journalctl
