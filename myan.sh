@@ -17,6 +17,21 @@ EOF
 
 # ==========================================
 
+# chef
+function chef()
+{
+    cat <<EOF
+===chef===
+# knife solo
+$ knife solo cook root@host -i ~/.ssh/hoge
+
+# Why run
+$ knife solo cook -N [node_file] user@host -W
+========
+EOF
+
+}
+
 # cp( scp | rsync )
 function cp()
 {
@@ -108,6 +123,13 @@ while true ; do
         cp
         break
     fi
+
+    # chef
+    if [ "${COM}" == "chef" ];then
+        chef
+        break
+    fi
+
 
     # git
     if [ "${COM}" == "git" ];then
