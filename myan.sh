@@ -47,6 +47,18 @@ while true ; do
         break
     fi
 
+    # process
+    if [ "${COM}" == "process" ];then
+        process
+        break
+    fi
+
+    # process_
+    if [ "${COM}" == "process_" ];then
+        process_
+        break
+    fi
+
     # pt
     if [ "${COM}" == "pt" ];then
         pt

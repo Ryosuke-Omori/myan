@@ -8,6 +8,8 @@ cp
 dstat
 git
 journalctl
+process
+process_
 pt
 service
 ==========
