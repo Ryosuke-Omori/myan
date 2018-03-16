@@ -4,22 +4,6 @@ source ~/repos/myan/myan_func.sh
 
 set -ue
 
-# list
-function list()
-{
-    cat <<EOF
-===list===
-chef
-cp
-dstat
-git
-journalctl
-pt
-service
-==========
-EOF
-}
-
 echo "\\(^o^)/ﾊｼﾞﾏﾀ"
 while true ; do
     echo "   list : コマンド一覧"
