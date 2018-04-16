@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source ~/repos/myan/myan_func.sh
+source $MYAN_HOME/myan_func.sh
 
 set -ue
 
