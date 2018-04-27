@@ -65,9 +65,15 @@ while true ; do
         break
     fi
 
-    # pt
+    # service
     if [ "${COM}" == "service" ];then
         service
+        break
+    fi
+
+    # less
+    if [ "${COM}" == "less" ];then
+        less
         break
     fi
 

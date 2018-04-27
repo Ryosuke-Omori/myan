@@ -10,3 +10,4 @@ source $MYAN_HOME/func/process.sh
 source $MYAN_HOME/func/process_.sh
 source $MYAN_HOME/func/pt.sh
 source $MYAN_HOME/func/service.sh
+source $MYAN_HOME/func/less.sh
