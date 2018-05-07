@@ -22,6 +22,17 @@ function less()
 ex) .bash_r-omori
 export LESS="-iMR"
 
+
+# 移動
+# SPACE: 1画面分進む
+# d: 半画面進む
+# RETURN: 1行進む
+# b: 1画面戻る
+# u: 半画面戻る
+# y: 1行戻る
+# g|<: 先頭に移動
+# G|>: 終端に移動
+
 ========
 EOF
 }
