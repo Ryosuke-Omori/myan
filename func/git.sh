@@ -10,8 +10,11 @@ $ git add -p
 $ git reset HEAD
 
 # 直前の commit 取り消し
-# git reset --hard HEAD^    # ステージング含む
-# git reset --soft HEAD^    # コミットのみ
+$ git reset --hard HEAD^    # ステージング含む
+$ git reset --soft HEAD^    # コミットのみ
+
+# addしたあとのdiff
+$ git diff --cached [file]
 =========
 EOF
 }
