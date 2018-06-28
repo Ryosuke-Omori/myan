@@ -77,6 +77,12 @@ while true ; do
         break
     fi
 
+    # less
+    if [ "${COM}" == "util" ];then
+        util
+        break
+    fi
+
     # bye
     if [ "${COM}" == "bye" ];then
         break
