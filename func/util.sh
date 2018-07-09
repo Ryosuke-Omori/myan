@@ -23,6 +23,11 @@ $ journalctl                                # CentOS7
 clisys@ncmimgwrk531v:~$ consul members | grep ncmimgwrk531v
 ncmimgwrk531v   172.20.14.66:8301  alive   client  0.9.3  2         nc1  <default>
 
+# ファイルサーバのマウント切りたい時
+$ df                                    # マウント確認1
+$ mount                                 # マウント確認2
+$ umount //r-omori@clnas1/documents     # マウント解除
+
 -----グローバル-----
 # 困ったら
 $ yum clean all
