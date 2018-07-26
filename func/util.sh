@@ -29,6 +29,12 @@ $ mount                                 # マウント確認2
 $ umount //r-omori@clnas1/documents     # マウント解除
 
 -----グローバル-----
+# disk調査
+$ df -h
+$ du -hs [ファイル指定]
+    ex) du -hs 2017{08,09,10,11,12}
+        du -hs .
+
 # 困ったら
 $ yum clean all
 
