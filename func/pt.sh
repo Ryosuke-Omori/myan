@@ -11,6 +11,9 @@ $ pt hoge */*/*.sh
 
 # monococoに関するレポジトリでModel配下の"->{status}"を検索
 $ pt -e "\-\>{status}" m-*/lib/*/Model/*
+
+# 日本語を検索
+$ pt -e "[ぁ-ん|ァ-ヴ|一-龠|ー・、。]"
 ========
 EOF
 }
